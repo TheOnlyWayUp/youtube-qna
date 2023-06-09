@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="luxury">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<script>
+			// Hello World :)
+		</script>
+		<style>
+			
+/* Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: var(--primary) var(--secondary);
+  }
+  
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+	width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+	background: var(--primary);
+  }
+		</style>
+		<div style="display: contents" class="text-white">%sveltekit.body%</div>
+	</body>
+</html>
